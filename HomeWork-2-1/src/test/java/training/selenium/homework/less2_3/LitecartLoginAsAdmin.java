@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.By;
 import static org.openqa.selenium.support.ui.ExpectedConditions.titleIs;
 
-public class FirstRun {
+public class LitecartLoginAsAdmin {
 
     private WebDriver driver;
     private WebDriverWait wait;
@@ -20,7 +20,7 @@ public class FirstRun {
     public void start() {
         System.setProperty("webdriver.chrome.driver", "/Users/titovab/Public/driver/chromedriver");
         driver = new ChromeDriver();
-		driver.manage().timeouts().implicityWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);//implicityWait(10, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver, 10);
     }
 
