@@ -45,7 +45,7 @@ public class LitecartLoginAsAdmin {
 
     @Test
     public void OpenPageAndCloseBrowserTest() {
-        driver.manage().window().fullscreen();
+        //driver.manage().window().fullscreen();
         driver.get("http://localhost/litecart/admin/");
 
         driver.findElement(By.name("username")).sendKeys("admin");
