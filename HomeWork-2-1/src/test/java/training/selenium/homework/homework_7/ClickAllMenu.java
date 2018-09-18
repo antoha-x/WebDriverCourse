@@ -8,33 +8,36 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.concurrent.TimeUnit;
 
 public class ClickAllMenu {
 
     private final static String MENU_SELECTOR = "#box-apps-menu li";
-    private final static String SECOND_MENU_SELECTOR = "//ul[@id='box-apps-menu']/li[%d]";
+    private final static String FIRST_MENU_SELECTOR = "//ul[@id='box-apps-menu']/li[%d]";
+    private final static String COUNT_SECOND_MENU_SELECTOR = "//ul[@id='box-apps-menu']/li[%d]/*/li";
+    private final static String SECOND_MENU_SELECTOR = "//ul[@id='box-apps-menu']/li[%d]/*/li[%d]";
     private WebDriver driver;
-    private WebDriverWait wait;
 
     @Before
     public void start() {
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        wait = new WebDriverWait(this.driver, 10);
     }
 
     @Test
     public void OpenPageAndCloseBrowserTest() {
         login();
-        for (int i = 1; i < countLeftMenuCategory(driver, By.cssSelector(MENU_SELECTOR)); i++) {
-            WebElement menuItem = driver.findElement(By.xpath(String.format(SECOND_MENU_SELECTOR, i)));
+        for (int i = 1; i < countElements(driver, By.cssSelector(MENU_SELECTOR)); i++) {
+            WebElement menuItem = driver.findElement(By.xpath(String.format(FIRST_MENU_SELECTOR, i)));
             menuItem.click();
-            if (isElementPresent(driver, By.cssSelector("h1")) == false)
+            if (!isElementPresent(driver, By.cssSelector("h1")))
                 System.out.println("[ERROR]: tagName <H1> not found in " + menuItem.getAttribute("outerText"));
 
+            if (countElements(driver, By.xpath(String.format(COUNT_SECOND_MENU_SELECTOR, i))) > 0 ) {
+                for (int k = 1; k <= countElements(driver, By.xpath(String.format(COUNT_SECOND_MENU_SELECTOR, i))); k++) {
+                    WebElement secondMenuItem = driver.findElement(By.xpath(String.format(SECOND_MENU_SELECTOR, i, k)));
+                    secondMenuItem.click();
+                }
+            }
         }
 
     }
@@ -54,11 +57,11 @@ public class ClickAllMenu {
         driver.findElement(By.name("login")).click();
     }
 
-    private int countLeftMenuCategory(WebDriver driver, By locator) {
+    private int countElements(final WebDriver driver, final By locator) {
         return driver.findElements(locator).size();
     }
 
-    private boolean isElementPresent(WebDriver driver, By locator) {
+    private boolean isElementPresent(final WebDriver driver, final By locator) {
         try {
             driver.findElement(locator);
             return true;
