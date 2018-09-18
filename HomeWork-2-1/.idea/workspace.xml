@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e147f9c-2a3d-43a5-bdad-4c16f54df5c1" name="Default Changelist" comment="" />
+    <list default="true" id="1e147f9c-2a3d-43a5-bdad-4c16f54df5c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_9_1/CheckSortCountry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_8/CheckSticker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_8/CheckSticker.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -61,27 +65,27 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="2" />
-          <entry key="java" value="10" />
+          <entry key="java" value="14" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="14" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="2748" />
+          <entry key="java" value="3399" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="2748" />
+          <entry key="JAVA" value="3399" />
         </counts>
       </usages-collector>
     </session>
@@ -121,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_7/ClickAllMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+            <state relative-caret-position="272">
+              <caret line="61" column="5" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#911#912#0" expanded="true" />
@@ -134,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_8/CheckSticker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#280#281#0" expanded="true" />
@@ -148,6 +152,55 @@
                 <element signature="e#1577#1578#0" expanded="true" />
                 <element signature="e#1656#1657#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_9_1/CheckSortCountry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2294#2295#0" expanded="true" />
+                <element signature="e#2352#2353#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/junit/framework/TestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="251" column="23" selection-start-line="251" selection-start-column="23" selection-end-line="251" selection-end-column="23" />
+              <folding>
+                <element signature="e#7396#7397#0" expanded="true" />
+                <element signature="e#7449#7450#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1570">
+              <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+              <folding>
+                <element signature="e#6326#6327#0" expanded="true" />
+                <element signature="e#6394#6395#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10">
+              <caret line="135" column="3" lean-forward="true" selection-start-line="135" selection-start-column="3" selection-end-line="135" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -536,6 +589,7 @@
         <option value="$PROJECT_DIR$/src/test/java/training/selenium/homework/less2_3/LitecartLoginAsAdmin.java" />
         <option value="$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_7/ClickAllMenu.java" />
         <option value="$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_8/CheckSticker.java" />
+        <option value="$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_9_1/CheckSortCountry.java" />
       </list>
     </option>
   </component>
@@ -609,34 +663,7 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="homework_7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeWork-2-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeWork-2-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="homework_8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeWork-2-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeWork-2-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="less2_1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HomeWork-2-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HomeWork-2-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="homework" type="462c0819:PsiDirectoryNode" />
-              <item name="less2_3" type="462c0819:PsiDirectoryNode" />
+              <item name="homework_9_1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -649,7 +676,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537281440057" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537305046296" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -669,11 +696,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CheckSticker">
-    <configuration name="All in HomeWork-2-1_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CheckSortCountry">
+    <configuration name="CheckSortCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HomeWork-2-1_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="training.selenium.homework.homework_9_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="training.selenium.homework.homework_9_1" />
+      <option name="MAIN_CLASS_NAME" value="training.selenium.homework.homework_9_1.CheckSortCountry" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -735,19 +768,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in HomeWork-2-1_test" />
       <item itemvalue="JUnit.FirstRun" />
       <item itemvalue="JUnit.LitecartLoginAsAdmin" />
       <item itemvalue="JUnit.ClickAllMenu" />
       <item itemvalue="JUnit.CheckSticker" />
+      <item itemvalue="JUnit.CheckSortCountry" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CheckSortCountry" />
         <item itemvalue="JUnit.CheckSticker" />
         <item itemvalue="JUnit.ClickAllMenu" />
         <item itemvalue="JUnit.LitecartLoginAsAdmin" />
         <item itemvalue="JUnit.FirstRun" />
-        <item itemvalue="JUnit.All in HomeWork-2-1_test" />
       </list>
     </recent_temporary>
   </component>
@@ -764,44 +797,44 @@
       <workItem from="1534406151857" duration="3775000" />
       <workItem from="1534415644865" duration="6066000" />
       <workItem from="1536924411828" duration="397000" />
-      <workItem from="1536928316221" duration="13240000" />
+      <workItem from="1536928316221" duration="18510000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckSticker - 2018.09.18 at 18h 21m 32s.xml">
-      <configuration name="CheckSticker" configurationId="JUnit" />
+    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 44m 14s.xml">
+      <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSticker - 2018.09.18 at 18h 21m 52s.xml">
-      <configuration name="CheckSticker" configurationId="JUnit" />
+    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 45m 14s.xml">
+      <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSticker - 2018.09.18 at 18h 22m 31s.xml">
-      <configuration name="CheckSticker" configurationId="JUnit" />
+    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 47m 38s.xml">
+      <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSticker - 2018.09.18 at 18h 36m 42s.xml">
-      <configuration name="CheckSticker" configurationId="JUnit" />
+    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 48m 56s.xml">
+      <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSticker - 2018.09.18 at 18h 41m 02s.xml">
-      <configuration name="CheckSticker" configurationId="JUnit" />
+    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 51m 27s.xml">
+      <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSticker - 2018.09.18 at 18h 42m 48s.xml">
-      <configuration name="CheckSticker" configurationId="JUnit" />
+    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 52m 21s.xml">
+      <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSticker - 2018.09.18 at 18h 44m 34s.xml">
-      <configuration name="CheckSticker" configurationId="JUnit" />
+    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 55m 47s.xml">
+      <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSticker - 2018.09.18 at 18h 57m 16s.xml">
-      <configuration name="CheckSticker" configurationId="JUnit" />
+    <history-entry file="CheckSortCountry - 2018.09.19 at 02h 04m 36s.xml">
+      <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSticker - 2018.09.18 at 19h 06m 04s.xml">
-      <configuration name="CheckSticker" configurationId="JUnit" />
+    <history-entry file="CheckSortCountry - 2018.09.19 at 02h 05m 31s.xml">
+      <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSticker - 2018.09.18 at 19h 19m 51s.xml">
-      <configuration name="CheckSticker" configurationId="JUnit" />
+    <history-entry file="CheckSortCountry - 2018.09.19 at 02h 06m 16s.xml">
+      <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23478000" />
+    <option name="totallyTimeSpent" value="28748000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -912,10 +945,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1570">
+          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+          <folding>
+            <element signature="e#6326#6327#0" expanded="true" />
+            <element signature="e#6394#6395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="135" column="3" lean-forward="true" selection-start-line="135" selection-start-column="3" selection-end-line="135" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/junit/framework/TestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="251" column="23" selection-start-line="251" selection-start-column="23" selection-end-line="251" selection-end-column="23" />
+          <folding>
+            <element signature="e#7396#7397#0" expanded="true" />
+            <element signature="e#7449#7450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_8/CheckSticker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#1031#1032#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+            <element signature="e#1656#1657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_7/ClickAllMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        <state relative-caret-position="272">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#911#912#0" expanded="true" />
@@ -926,18 +1004,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_8/CheckSticker.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_9_1/CheckSortCountry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        <state relative-caret-position="96">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1089#1090#0" expanded="true" />
-            <element signature="e#1577#1578#0" expanded="true" />
-            <element signature="e#1656#1657#0" expanded="true" />
+            <element signature="e#2294#2295#0" expanded="true" />
+            <element signature="e#2352#2353#0" expanded="true" />
           </folding>
         </state>
       </provider>
