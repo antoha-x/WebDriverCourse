@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e147f9c-2a3d-43a5-bdad-4c16f54df5c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_9_1/CheckSortCountry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_8/CheckSticker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_8/CheckSticker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/training/selenium/homework/homework_9_1/CheckSortCountry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_9_1/CheckSortCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_9_1/CheckSortCountry.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -64,35 +63,35 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="2" />
-          <entry key="java" value="14" />
+          <entry key="gradle" value="4" />
+          <entry key="java" value="15" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="2" />
-          <entry key="JAVA" value="14" />
+          <entry key="Groovy" value="4" />
+          <entry key="JAVA" value="15" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="3399" />
+          <entry key="java" value="4347" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="3399" />
+          <entry key="JAVA" value="4347" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -102,30 +101,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/less2_1/FirstRun.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/less2_3/LitecartLoginAsAdmin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="494">
               <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_7/ClickAllMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
+            <state relative-caret-position="270">
               <caret line="61" column="5" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -156,16 +148,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_9_1/CheckSortCountry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+            <state relative-caret-position="345">
+              <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2294#2295#0" expanded="true" />
-                <element signature="e#2352#2353#0" expanded="true" />
+                <element signature="e#2628#2629#0" expanded="true" />
+                <element signature="e#2686#2687#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.14.0/8c0af6fdccdc89a4394de7e3a8817ed2d6e41d7d/selenium-api-3.14.0-sources.jar!/org/openqa/selenium/WebElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -676,7 +677,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537305046296" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537333520498" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -797,50 +798,50 @@
       <workItem from="1534406151857" duration="3775000" />
       <workItem from="1534415644865" duration="6066000" />
       <workItem from="1536924411828" duration="397000" />
-      <workItem from="1536928316221" duration="18510000" />
+      <workItem from="1536928316221" duration="22961000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 44m 14s.xml">
+    <history-entry file="CheckSortCountry - 2018.09.19 at 09h 08m 27s.xml">
       <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 45m 14s.xml">
+    <history-entry file="CheckSortCountry - 2018.09.19 at 09h 09m 18s.xml">
       <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 47m 38s.xml">
+    <history-entry file="CheckSortCountry - 2018.09.19 at 09h 24m 02s.xml">
       <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 48m 56s.xml">
+    <history-entry file="CheckSortCountry - 2018.09.19 at 09h 48m 09s.xml">
       <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 51m 27s.xml">
+    <history-entry file="CheckSortCountry - 2018.09.19 at 09h 49m 31s.xml">
       <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 52m 21s.xml">
+    <history-entry file="CheckSortCountry - 2018.09.19 at 09h 52m 30s.xml">
       <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSortCountry - 2018.09.19 at 01h 55m 47s.xml">
+    <history-entry file="CheckSortCountry - 2018.09.19 at 09h 55m 21s.xml">
       <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSortCountry - 2018.09.19 at 02h 04m 36s.xml">
+    <history-entry file="CheckSortCountry - 2018.09.19 at 09h 56m 59s.xml">
       <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSortCountry - 2018.09.19 at 02h 05m 31s.xml">
+    <history-entry file="CheckSortCountry - 2018.09.19 at 09h 59m 44s.xml">
       <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckSortCountry - 2018.09.19 at 02h 06m 16s.xml">
+    <history-entry file="CheckSortCountry - 2018.09.19 at 10h 00m 34s.xml">
       <configuration name="CheckSortCountry" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28748000" />
+    <option name="totallyTimeSpent" value="33199000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -849,7 +850,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -907,16 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/less2_1/FirstRun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -936,13 +927,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8586" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/less2_3/LitecartLoginAsAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-        </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
@@ -990,9 +974,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/less2_3/LitecartLoginAsAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_7/ClickAllMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="270">
           <caret line="61" column="5" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="61" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1004,15 +995,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.14.0/8c0af6fdccdc89a4394de7e3a8817ed2d6e41d7d/selenium-api-3.14.0-sources.jar!/org/openqa/selenium/WebElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="149" column="23" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/training/selenium/homework/homework_9_1/CheckSortCountry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="345">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2294#2295#0" expanded="true" />
-            <element signature="e#2352#2353#0" expanded="true" />
+            <element signature="e#2628#2629#0" expanded="true" />
+            <element signature="e#2686#2687#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="39" lean-forward="true" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
         </state>
       </provider>
     </entry>
